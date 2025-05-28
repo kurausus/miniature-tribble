@@ -7,7 +7,7 @@ import os
 app = FastAPI()
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"  # ← keep your real key here
+os.environ["OPENAI_API_KEY"] = ""  # ← keep your real key here
 
 @app.get("/")
 async def get():
